@@ -1,0 +1,36 @@
+@mixin lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+}
+// @include lato-black;
+
+@mixin lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+// @include lato-bold;
+
+@mixin lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+// @include lato-regular;
+
+@mixin arial-bold {
+    font-family: "Arial", sans-serif;
+    font-weight: 700;
+}
+// @include arial-bold;
+
+@mixin arial-regular {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+}
+// @include arial-regular;
+
+@mixin arial-bold-italic {
+    font-family: "Arial", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+// @include arial-bold-italic;
